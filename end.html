@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>등교를 부탁해!</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/end.css">
-    <link rel="icon" href="./resource/image/favicon.ico">
+    <link rel="icon" href="favicon.ico">
 </head>
+
 <body>
     <main class="container">
         <h1 class="title">
@@ -16,9 +19,16 @@
         <h2 class="score">
             SCORE : 00000
         </h2>
-        <button class="replay-button" onclick="window.open('index.html', '_top')">
-            <img src="./resource/image/replay-button.png" alt="">
-        </button>
+        <div class="buttons">
+            <button class="replay-button" onclick="window.open('index.html', '_top')">
+                > 다시하기
+            </button>
+            <button class="replay-button" onclick="window.open('index.html', '_top')">
+                > 랭킹보기
+            </button>
+        </div>
     </main>
+
     <script src="./js/end.js"></script>
+
 </html>
